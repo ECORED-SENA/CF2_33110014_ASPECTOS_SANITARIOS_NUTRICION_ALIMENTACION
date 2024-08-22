@@ -15,27 +15,26 @@ export default {
   components: { Actividad },
   data: () => ({
     cuestionario: {
-      tema: 'Manejo de los residuos sólidos en la producción avícola.',
+      tema: 'Alimentación en las diferentes etapas de la vida',
       titulo: 'Cuestionario',
       introduccion:
-        'Lea cada enunciado y luego seleccione la respuesta correcta según corresponda.',
+        'Evaluar la importancia de la nutrición en las etapas de gestación, lactancia, infancia y adolescencia, así como sobre los cambios fisiológicos y nutricionales específicos de cada etapa y la identificación de trastornos alimentarios comunes.',
       barajarPreguntas: false,
       preguntas: [
         {
           id: 1,
-          texto:
-            'Cuáles son los tipos de explotación en los sistemas productivos avícolas:',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          texto: '¿Cuál es la duración del periodo de embarazo?',
+          imagen: require('@/assets/actividad/1.png'),
           barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Explotación intensiva', esCorrecta: false },
-            { id: 'b', texto: 'Explotación semi intensiva', esCorrecta: false },
+            { id: 'a', texto: '240 días.', esCorrecta: false },
+            { id: 'b', texto: '250 días.', esCorrecta: false },
             {
               id: 'c',
-              texto: 'Explotación extensiva o traspatio',
-              esCorrecta: false,
+              texto: '280 días.',
+              esCorrecta: true,
             },
-            { id: 'd', texto: 'Todas la anteriores', esCorrecta: true },
+            { id: 'd', texto: '300 días.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Respuesta correcta! Felicidades.',
           mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
@@ -43,33 +42,18 @@ export default {
         {
           id: 2,
           texto:
-            'Se lanzan dos proyectiles desde el suelo con la misma velocidad inicial, pero uno se lanza horizontalmente y el otro se lanza formando un ángulo de 45 grados con la horizontal. Considerando la resistencia del aire despreciable, ¿cuáles de las siguientes afirmaciones son verdaderas?',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
+            '¿Qué hormona aumenta la progesterona para hacer más resistente el útero?',
+          imagen: require('@/assets/actividad/2.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Ambos proyectiles alcanzarán la misma altura máxima.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto:
-                'El proyectil lanzado horizontalmente recorrerá una distancia horizontal mayor que el proyectil lanzado a 45 grados',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Estrógeno.', esCorrecta: false },
+            { id: 'b', texto: 'Gonadotropina coriónica.', esCorrecta: true },
             {
               id: 'c',
-              texto:
-                'La velocidad horizontal del proyectil lanzado a 45 grados será mayor que la velocidad horizontal del proyectil lanzado horizontalmente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto:
-                'La velocidad total del proyectil lanzado a 45 grados en el punto más alto de su trayectoria será la misma que la velocidad horizontal del proyectil lanzado horizontalmente en cualquier punto de su trayectoria.',
+              texto: 'Somatotropina coriónica humana.',
               esCorrecta: false,
             },
+            { id: 'd', texto: 'Progesterona.', esCorrecta: false },
           ],
           mensaje_correcto:
             '¡Perfecto! Has seleccionado la respuesta correcta.',
@@ -77,40 +61,121 @@ export default {
         },
         {
           id: 3,
-          texto: 'Texto de la tercera pregunta 3',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          texto:
+            '¿Cuál es el requerimiento energético adicional diario recomendado a partir del segundo trimestre del embarazo?',
+          imagen: require('@/assets/actividad/3.png'),
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: true },
+            { id: 'a', texto: '200 kcal/día.', esCorrecta: false },
+            { id: 'b', texto: '300 kcal/día.', esCorrecta: true },
+            { id: 'c', texto: '400 kcal/día.', esCorrecta: false },
+            { id: 'd', texto: '500 kcal/día.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Esa es la respuesta correcta.',
           mensaje_incorrecto: 'Respuesta incorrecta. ¡Inténtalo de nuevo!',
         },
         {
           id: 4,
-          texto: 'Texto de la cuarta pregunta 4',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          texto:
+            '¿Qué mineral debe aumentarse durante el embarazo para fortalecer el desarrollo óseo del bebé?',
+          imagen: require('@/assets/actividad/4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: true },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            { id: 'a', texto: 'Hierro.', esCorrecta: false },
+            { id: 'b', texto: 'Yodo.', esCorrecta: false },
+            { id: 'c', texto: 'Calcio.', esCorrecta: true },
+            { id: 'd', texto: 'Magnesio.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Respuesta correcta! Felicidades.',
           mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
         },
         {
           id: 5,
-          texto: 'Texto de la quinta pregunta 5',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          texto:
+            '¿Qué porcentaje de lípidos se recomienda en una dieta equilibrada durante el embarazo?',
+          imagen: require('@/assets/actividad/1.png'),
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: true },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            { id: 'a', texto: '20% a 25%.', esCorrecta: false },
+            { id: 'b', texto: '25% a 30%.', esCorrecta: false },
+            { id: 'c', texto: '30% a 35%.', esCorrecta: true },
+            { id: 'd', texto: '35% a 40%.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+        },
+        {
+          id: 6,
+          texto:
+            '¿Cuál es el requerimiento energético diario para niños de 7 a 10 años?',
+          imagen: require('@/assets/actividad/2.png'),
+          opciones: [
+            { id: 'a', texto: '1500 kcal/día.', esCorrecta: false },
+            { id: 'b', texto: '2000 kcal/día.', esCorrecta: true },
+            { id: 'c', texto: '2500 kcal/día.', esCorrecta: false },
+            { id: 'd', texto: '3000 kcal/día.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+        },
+        {
+          id: 7,
+          texto:
+            '¿Qué cantidad diaria de fibra se recomienda para un niño de 7 años?',
+          imagen: require('@/assets/actividad/3.png'),
+          opciones: [
+            { id: 'a', texto: '10 gramos.', esCorrecta: false },
+            { id: 'b', texto: '12 gramos.', esCorrecta: true },
+            { id: 'c', texto: '14 gramos.', esCorrecta: false },
+            { id: 'd', texto: '16 gramos.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+        },
+        {
+          id: 8,
+          texto:
+            '¿Qué porcentaje de carbohidratos se recomienda en la dieta de un adolescente?',
+          imagen: require('@/assets/actividad/4.png'),
+          opciones: [
+            { id: 'a', texto: '40% a 50%.', esCorrecta: false },
+            { id: 'b', texto: '50% a 60%.', esCorrecta: false },
+            { id: 'c', texto: '55% a 66%.', esCorrecta: true },
+            { id: 'd', texto: '60% a 70%.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+        },
+        {
+          id: 9,
+          texto:
+            '¿Cuál es el principal objetivo de la dieta en la adolescencia?',
+          imagen: require('@/assets/actividad/1.png'),
+          opciones: [
+            { id: 'a', texto: 'Perder peso.', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Cubrir las necesidades de energía y nutrientes.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Reducir el consumo de grasas.',
+              esCorrecta: false,
+            },
+            { id: 'd', texto: 'Aumentar la masa muscular.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+        },
+        {
+          id: 10,
+          texto:
+            '¿Qué trastorno alimentario es común en mujeres adultas y comienza en la adolescencia?',
+          imagen: require('@/assets/actividad/2.png'),
+          opciones: [
+            { id: 'a', texto: 'Bulimia nerviosa.', esCorrecta: false },
+            { id: 'b', texto: 'Ortorexia.', esCorrecta: false },
+            { id: 'c', texto: 'Anorexia nerviosa.', esCorrecta: true },
+            { id: 'd', texto: 'Vigorexia.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Respuesta correcta! Felicidades.',
           mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
