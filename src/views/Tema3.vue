@@ -165,7 +165,7 @@
       .row.justify-content-center 
         .col-lg-7.my-3.j1
           .p-4
-            p(data-aos="fade-down") Los lípidos son una parte esencial de la dieta, especialmente durante la adolescencia, cuando el cuerpo está en rápido crecimiento y desarrollo. Deben constituir entre el 30% y el 35% de la ingesta diaria de calorías. Es crucial mantener un equilibrio adecuado entre los diferentes tipos de ácidos grasos: saturados, monoinsaturados y poliinsaturados, para apoyar el desarrollo celular, la producción de hormonas y la absorción de vitaminas liposolubles.       
+            p(data-aos="fade-down") Los lípidos son una parte esencial de la dieta, especialmente durante la adolescencia, cuando el cuerpo está en rápido crecimiento y desarrollo. Deben constituir entre el 30 % y el 35 % de la ingesta diaria de calorías. Es crucial mantener un equilibrio adecuado entre los diferentes tipos de ácidos grasos: saturados, monoinsaturados y poliinsaturados, para apoyar el desarrollo celular, la producción de hormonas y la absorción de vitaminas liposolubles.       
         .col-lg-5
           img.img-mov(data-aos="zoom-in")(src='@/assets/curso/temas/65.png', alt='')   
 
@@ -182,7 +182,7 @@
       .row.justify-content-center 
         .col-lg-7.my-3.j1
           .p-4
-            p(data-aos="fade-down") Los carbohidratos son la principal fuente de energía para el cuerpo y juegan un papel fundamental en el apoyo a las actividades diarias y el crecimiento durante la adolescencia. Deben representar entre el 55% y el 66% de la ingesta diaria de calorías, preferiblemente provenientes de hidratos de carbono complejos. Estos proporcionan una liberación de energía sostenida y son beneficiosos para la salud digestiva y el control del peso.       
+            p(data-aos="fade-down") Los carbohidratos son la principal fuente de energía para el cuerpo y juegan un papel fundamental en el apoyo a las actividades diarias y el crecimiento durante la adolescencia. Deben representar entre el 55 % y el 66 % de la ingesta diaria de calorías, preferiblemente provenientes de hidratos de carbono complejos. Estos proporcionan una liberación de energía sostenida y son beneficiosos para la salud digestiva y el control del peso.       
         .col-lg-5
           img.img-mov(data-aos="zoom-in")(src='@/assets/curso/temas/66.png', alt='') 
 
@@ -258,7 +258,7 @@
                 h5(data-aos="fade-down") ¿Sabías qué?
                 p(data-aos="fade-down") Lo invitamos a escuchar el siguiente Pódcast:
                   TarjetaAudio.color-secundario.mt-4(
-                  texto="Proceso de descarga de MySQL Server Community y MySQL Workbench"
+                  texto="Situaciones de riesgo nutricional"
                   :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )  
@@ -386,7 +386,7 @@
                   h5.my-4(data-aos="fade-down") Nutricionistas
                   p(data-aos="fade-down") Para establecer una dieta equilibrada y saludable, educar sobre la nutrición adecuada y supervisar la recuperación del peso. 
 
-            p(data-aos="fade-down") Aunque el apoyo familiar es crucial, en algunos casos se puede considerar temporalmente el aislamiento familiar si la dinámica en casa contribuye negativamente al trastorno. Sin embargo, es importante trabajar eventualmente en la reintegración y el fortalecimiento del apoyo familiar
+            p(data-aos="fade-down") Aunque el apoyo familiar es crucial, en algunos casos se puede considerar temporalmente el aislamiento familiar si la dinámica en casa contribuye negativamente al trastorno. Sin embargo, es importante trabajar eventualmente en la reintegración y el fortalecimiento del apoyo familiar.
             p(data-aos="fade-down") Los objetivos clave del tratamiento son: 
 
     .bg6.p-4.brad1
@@ -400,7 +400,7 @@
         .row.justify-content-center
           .col-lg-6.my-2
             h5.mb-4 Establecer hábitos alimenticios saludables 
-            p Crear y mantener patrones de alimentación que apoyen la salud a largo plazo 
+            p Crear y mantener patrones de alimentación que apoyen la salud a largo plazo. 
           .col-lg-5.my-2 
             img.img-a.img-t(src='@/assets/curso/temas/82.png', alt='')  
         .row.justify-content-center

@@ -149,7 +149,7 @@
           ul.lista-ul.fa-ul.mb-0
             li 
               i.fas.fa-carrot.color1
-              span Aumento del volumen plasmático del 50%.
+              span Aumento del volumen plasmático del 50 %.
             li 
               i.fas.fa-carrot.color1
               span Aumento de la masa eritrocitaria.
@@ -320,7 +320,7 @@
             ul.lista-ul.fa-ul.mb-0
               li 
                 i.fas.fa-carrot.color1
-                span Los carbohidratos deben constituir entre el 50% y el 60% de una dieta equilibrada.
+                span Los carbohidratos deben constituir entre el 50 % y el 60 % de una dieta equilibrada.
               li 
                 i.fas.fa-carrot.color1
                 span Son una fuente importante de energía rápida para el cuerpo.
@@ -348,7 +348,7 @@
                 span Durante el tercer trimestre, se acumulan grasas adicionales para mantener el crecimiento fetal y satisfacer las necesidades iniciales de la lactancia.
               li 
                 i.fas.fa-carrot.color1
-                span Patrón de dieta equilibrada: 30% a 35%.
+                span Patrón de dieta equilibrada: 30 % a 35 %.
               li 
                 i.fas.fa-carrot.color1
                 span Se recomienda la ingesta de DHA (ácido docosahexaenoico) 200 mg/día. 
@@ -366,7 +366,7 @@
 
     .row.justify-content-center.mb-4   
       .col-lg-8.my-3
-        p(data-aos="fade-down") El embarazo es una etapa de cambios fisiológicos significativos, durante la cual el cuerpo de la mujer requiere una mayor cantidad de nutrientes esenciales para apoyar tanto su bienestar como el desarrollo saludable del feto. Entre estos nutrientes, #[b.t1 las vitaminas y minerales] juegan un papel crucial. Asegurar una ingesta adecuada de estos elementos es vital para prevenir malformaciones, promover el crecimiento y desarrollo normal del feto, y mantener la salud de la madre
+        p(data-aos="fade-down") El embarazo es una etapa de cambios fisiológicos significativos, durante la cual el cuerpo de la mujer requiere una mayor cantidad de nutrientes esenciales para apoyar tanto su bienestar como el desarrollo saludable del feto. Entre estos nutrientes, #[b.t1 las vitaminas y minerales] juegan un papel crucial. Asegurar una ingesta adecuada de estos elementos es vital para prevenir malformaciones, promover el crecimiento y desarrollo normal del feto, y mantener la salud de la madre.
         .row.justify-content-center.bg1.brad.p-4(data-aos="fade-right")
           .col-auto
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/2.svg', alt='')        
@@ -398,7 +398,7 @@
 
               li 
                 i.fas.fa-carrot.color1
-                span Es importante consumir 200 mg adicionales diarios de ácido fólico. puede ser necesario aumentar la ingesta proteica. 
+                span Es importante consumir 200 mg adicionales diarios de ácido fólico. Puede ser necesario aumentar la ingesta proteica. 
           .col-lg-5.my-2 
             img.img-a.img-t(src='@/assets/curso/temas/26.png', alt='')     
 
@@ -595,16 +595,16 @@
           tr
             td Humana           
             td 70
-            td 57%
-            td 38%
-            td 5%
+            td 57 %
+            td 38 %
+            td 5 %
 
           tr
             td Bovina
             td 70           
-            td 47%
-            td 33%
-            td 20%
+            td 47 %
+            td 33 %
+            td 20 %
 
     p(data-aos="fade-down") Ingestas recomendadas en la mujer lactante: 
 
@@ -667,7 +667,7 @@
               span No ingerir alimentos que puedan alterar las cualidades organolépticas y digestivas de la leche.
             li 
               i.fas.fa-carrot.color1
-              span Restringir la ingestión de alcohol y evitar el consumo de bebidas estimulantes (café, té, refrescos con cafeína, entre otros.).                                                                               
+              span Restringir la ingestión de alcohol y evitar el consumo de bebidas estimulantes (café, té, refrescos con cafeína, entre otros).                                                                               
 </template>
 
 <script>

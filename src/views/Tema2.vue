@@ -29,7 +29,7 @@
           .list__txt.bgicon.p-0.px-4
             h3.mb-1 Desarrollo físico 
 
-    p(data-aos="fade-down") Los niños continúan ganando peso y altura, pero mucho más lentamente de lo que lo hicieron durante los primeros dos años de vida. El desarrollo del cerebro también está en marcha. En el momento en que un niño llega a la edad de tres años, el cerebro habrá alcanzado aproximadamente el 75% del peso que tendrá en la edad adulta.             
+    p(data-aos="fade-down") Los niños continúan ganando peso y altura, pero mucho más lentamente de lo que lo hicieron durante los primeros dos años de vida. El desarrollo del cerebro también está en marcha. En el momento en que un niño llega a la edad de tres años, el cerebro habrá alcanzado aproximadamente el 75 % del peso que tendrá en la edad adulta.             
 
     .row.justify-content-center.mb-4   
       .col-lg-6.my-3
@@ -80,7 +80,7 @@
             ul.lista-ul.fa-ul.mb-0
               li 
                 i.fas.fa-carrot.color1
-                span mportantes para los procesos metabólicos y aportan aminoácidos esenciales.
+                span Importantes para los procesos metabólicos y aportan aminoácidos esenciales.
               li 
                 i.fas.fa-carrot.color1
                 span En los niños, el recambio de proteínas es elevado debido al crecimiento. 
@@ -105,7 +105,7 @@
                 span La fibra ayuda en la digestión, remueve grasas saturadas y colesterol malo, y previene la obesidad. 
               li 
                 i.fas.fa-carrot.color1
-                span Ingesta diaria de fibra: Edad del niño + 5 gramos (hasta un máximo de 35 gramos/día). 
+                span Ingesta diaria de fibra: edad del niño + 5 gramos (hasta un máximo de 35 gramos/día). 
           .col-lg-5.my-2 
             img.img-a.img-t(src='@/assets/curso/temas/51.png', alt='')  
 
@@ -115,7 +115,7 @@
             ul.lista-ul.fa-ul.mb-0
               li 
                 i.fas.fa-carrot.color1
-                span Constituyen el 30% a 35% del Valor Energético Total (VET). 
+                span Constituyen el 30 % a 35 % del Valor Energético Total (VET). 
           .col-lg-5.my-2 
             img.img-a.img-t(src='@/assets/curso/temas/52.png', alt='')  
 
@@ -177,7 +177,7 @@
                   img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/56.png', alt='')        
                   h5.my-4(data-aos="fade-down") Almuerzo
                   p(data-aos="fade-down") Es la comida más importante del día.
-                  p(data-aos="fade-down") Se debe ofrecer una dieta variada de platos, teniendo en cuenta olores, sabores, texturas y consistencia.   
+                  p(data-aos="fade-down") Se debe ofrecer una dieta variada de platos, teniendo en cuenta olores, sabores, texturas y consitencias.   
 
             .row.justify-content-start.mb-4.mt-5
               .col-auto(data-aos="flip-down")
