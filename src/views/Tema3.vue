@@ -249,17 +249,17 @@
     p(data-aos="fade-down").mb-5 La adolescencia es una etapa crítica para el crecimiento y el desarrollo, donde la nutrición juega un papel fundamental. Sin embargo, diversos factores pueden poner en riesgo una nutrición adecuada durante este periodo. Estos factores se presentan a continuación: 
 
     .row.justify-content-center.mb-5
-      .col-lg-7
+      .col-lg-10
         .bg3.brad.p-4
           .row.justify-content-center.align-items-center
             .col-lg-5
               img.img-a.img-t(src='@/assets/curso/temas/pod.svg', alt='')
             .col-lg-7        
-                h5(data-aos="fade-down") ¿Sabías qué?
-                p(data-aos="fade-down") Lo invitamos a escuchar el siguiente Pódcast:
+                h5(data-aos="fade-down") #[i Pódcast]
+                p(data-aos="fade-down") La adolescencia es una etapa crítica para el crecimiento y el desarrollo, donde la nutrición juega un papel fundamental. Sin embargo, diversos factores pueden poner en riesgo una nutrición adecuada durante este periodo. Estos factores se presentan a continuación:
                   TarjetaAudio.color-secundario.mt-4(
                   texto="Situaciones de riesgo nutricional"
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/componentes/audios/riesgo.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )  
 
