@@ -136,7 +136,7 @@ export default {
     {
       tema: 'Alimentación en las diferentes etapas de la vida',
       referencia:
-        'Farmacia Carol  (2020).  La alimentación en las diferentes etapas de la vida. [Archivo de video] Youtube',
+        'Farmacia Carol  (2020).  La alimentación en las diferentes etapas de la vida. [Archivo de video] YouTube',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=thwycvqviPg&ab_channel=FarmaciaCarol ',
@@ -145,35 +145,27 @@ export default {
       tema: 'Gestación',
       referencia:
         'Rodríguez Gómez, M. (2022, julio 30).<i> Embarazo, lactancia y alimentación complementaria</i> [Video podcast]. En N. Coll (Anfitriona), El Podcast de Soycomomo. YouTube Music. ',
-      tipo: 'Podcast ',
+      tipo: 'Pódcast',
       link: 'https://music.youtube.com/watch?v=gtlffaZI7CM ',
     },
     {
       tema: 'Lactancia',
       referencia:
-        'Clínica Alemana (2019).  Lactancia materna | Clínica Alemana [Archivo de video] Youtube.  ',
+        'Clínica Alemana (2019).  Lactancia materna | Clínica Alemana [Archivo de video] YouTube.  ',
       tipo: 'Video',
       link: 'https://youtu.be/jYqE-n9wsa0?feature=shared',
     },
     {
       tema: 'Infancia',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA (2023).  Vitaminas y minerales  [Archivo de video] Youtube.',
+        'Ecosistema de Recursos Educativos Digitales SENA (2023).  Vitaminas y minerales  [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/HKZ3jKd5wGk?feature=shared',
     },
     {
-      tema: 'Adolescencia',
-      referencia:
-        'Coleman, J. C. (2013). <i>Psicología de la adolescencia:</i> (4 ed.). Ediciones Morata, S. L.',
-      tipo: 'Capítulo 7',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/51799',
-    },
-    {
       tema: 'Anorexia nerviosa',
       referencia:
-        'AutoSaludables (2018). ANOREXIA - ¿Qué es? Causas, síntomas y tratamiento [Archivo de video] Youtube.',
+        'AutoSaludables (2018). ANOREXIA - ¿Qué es? Causas, síntomas y tratamiento [Archivo de video] YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=ybHfgSlziNc&ab_channel=AutoSaludables',

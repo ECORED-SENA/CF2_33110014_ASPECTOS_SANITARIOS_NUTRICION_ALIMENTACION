@@ -177,7 +177,7 @@
                   img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/56.png', alt='')        
                   h5.my-4(data-aos="fade-down") Almuerzo
                   p(data-aos="fade-down") Es la comida más importante del día.
-                  p(data-aos="fade-down") Se debe ofrecer una dieta variada de platos, teniendo en cuenta olores, sabores, texturas y consitencias.   
+                  p(data-aos="fade-down") Se debe ofrecer una dieta variada de platos, teniendo en cuenta olores, sabores, texturas y consistencias.   
 
             .row.justify-content-start.mb-4.mt-5
               .col-auto(data-aos="flip-down")

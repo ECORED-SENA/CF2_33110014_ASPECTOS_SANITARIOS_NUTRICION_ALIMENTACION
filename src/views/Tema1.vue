@@ -621,7 +621,6 @@
       .py-4.py-md-5(titulo="Proteínas" :icono="require('@/assets/curso/temas/39.png')") 
         .row.justify-content-center
           .col-lg-6.my-2
-            h5.mb-4 Ácido Fólico
             p  Ingesta extra recomendada.
             
           .col-lg-5.my-2 
@@ -630,7 +629,6 @@
       .py-4.py-md-5(titulo="Vitaminas y minerales" :icono="require('@/assets/curso/temas/40.png')") 
         .row.justify-content-center
           .col-lg-6.my-2
-            h5.mb-4 Ácido Fólico
             p Se recomienda aumentar las cantidades de todas las vitaminas menos la K y los minerales Ca, Fe y I. 
 
             p Ejemplo: se debe suministrar más de 700 mg/día de calcio.
